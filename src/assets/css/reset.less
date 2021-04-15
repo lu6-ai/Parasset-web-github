@@ -1,0 +1,53 @@
+body, div, a, h1, h2, h3, input, form, strong, span, select, option, textarea, dl, dt, dd, ul, li, p {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+strong, i, em {
+ font-style: normal;
+}
+
+li {
+ list-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+ width: 0;
+ height: 0;
+}
+
+html, body {
+ margin: 0;
+ //height: 100%;
+ font-family: 'PingFang-SC-Regular', "Microsoft YaHei", "微软雅黑", Arial;
+}
+
+
+::-webkit-scrollbar {
+ display: none; /*隐藏滚轮*/
+
+}
+
+a {
+ text-decoration: none;
+ color: #000000;
+}
+
+* {
+ touch-action: pan-y;
+}
+
+
+/*
+* 重置 vant 样式
+*/
+.van-overlay {
+ z-index: 99 !important;
+}
+
+.van-dialog__confirm, .van-dialog__confirm:active{
+ color: #36CBE2FF;
+}
+
